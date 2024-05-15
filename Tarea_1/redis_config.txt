@@ -1,0 +1,56 @@
+
+// GET ALL KEYS
+keys *
+
+// REMOVE ALL KEYS
+FLUSHDB
+
+// GET MAX MEMORY
+config get maxmemory
+
+// SET MAX MEMORY
+config set maxmemory 1mb
+
+// SET LRU MODE
+config set maxmemory-policy allkeys-lru
+
+// SET LFU MODE
+config set maxmemory-policy allkeys-lfu
+
+// SET Random MODE
+config set maxmemory-policy allkeys-random
+
+//Partitioned
+
+    // Connect to instance 2
+    redis-cli -p 6370
+
+    // Connect to instance 3
+    redis-cli -p 6350
+
+
+//Replica
+    // Connect to master
+    redis-cli -h 127.0.0.1 -p 6379
+
+    // Connect to slave 1
+    redis-cli -h 127.0.0.1 -p 6307
+
+    // Connect to slave 2
+    redis-cli -h 127.0.0.1 -p 6302
+
+    // Connect to slave 3
+    redis-cli -h 127.0.0.1 -p 6303
+
+
+// Classic
+    used_memory: 838kb -> 1138kb  (300kb extra)
+
+// Partitioned
+    On every instance: 
+    used_memory: 838kb -> 1138kb  (300kb extra)
+
+// Replic
+    On master: 
+    used_memory: 1924kb -> 2225kb  (300kb extra)
+    

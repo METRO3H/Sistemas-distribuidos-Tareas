@@ -1,0 +1,164 @@
+[
+    {
+        "removal_policy": "allkeys-lru",
+        "average_time_response": 5.276,
+        "cache_counter": 7566,
+        "database_counter": 2434
+    },
+    {
+        "removal_policy": "allkeys-lru",
+        "average_time_response": 7.131,
+        "cache_counter": 8151,
+        "database_counter": 1849
+    },
+    {
+        "removal_policy": "allkeys-lru",
+        "average_time_response": 5.777,
+        "cache_counter": 8125,
+        "database_counter": 1875
+    },
+    {
+        "removal_policy": "allkeys-lru",
+        "average_time_response": 6.962,
+        "cache_counter": 8091,
+        "database_counter": 1909
+    },
+    {
+        "removal_policy": "allkeys-lru",
+        "average_time_response": 6.235,
+        "cache_counter": 8085,
+        "database_counter": 1915
+    },
+    {
+        "removal_policy": "allkeys-lru",
+        "average_time_response": 6.466,
+        "cache_counter": 7995,
+        "database_counter": 2005
+    },
+    {
+        "removal_policy": "allkeys-lru",
+        "average_time_response": 6.677,
+        "cache_counter": 8091,
+        "database_counter": 1909
+    },
+    {
+        "removal_policy": "allkeys-lru",
+        "average_time_response": 6.311,
+        "cache_counter": 7703,
+        "database_counter": 2297
+    },
+    {
+        "removal_policy": "allkeys-lru",
+        "average_time_response": 6.457,
+        "cache_counter": 8134,
+        "database_counter": 1866
+    },
+    {
+        "removal_policy": "allkeys-lfu",
+        "average_time_response": 6.032,
+        "cache_counter": 7483,
+        "database_counter": 2517
+    },
+    {
+        "removal_policy": "allkeys-lfu",
+        "average_time_response": 6.181,
+        "cache_counter": 8061,
+        "database_counter": 1939
+    },
+    {
+        "removal_policy": "allkeys-lfu",
+        "average_time_response": 6.561,
+        "cache_counter": 8090,
+        "database_counter": 1910
+    },
+    {
+        "removal_policy": "allkeys-lfu",
+        "average_time_response": 6.019,
+        "cache_counter": 8065,
+        "database_counter": 1935
+    },
+    {
+        "removal_policy": "allkeys-lfu",
+        "average_time_response": 6.572,
+        "cache_counter": 8101,
+        "database_counter": 1899
+    },
+    {
+        "removal_policy": "allkeys-lfu",
+        "average_time_response": 6.801,
+        "cache_counter": 8115,
+        "database_counter": 1885
+    },
+    {
+        "removal_policy": "allkeys-lfu",
+        "average_time_response": 6.683,
+        "cache_counter": 8068,
+        "database_counter": 1932
+    },
+    {
+        "removal_policy": "allkeys-lfu",
+        "average_time_response": 6.606,
+        "cache_counter": 8110,
+        "database_counter": 1890
+    },
+    {
+        "removal_policy": "allkeys-lfu",
+        "average_time_response": 6.231,
+        "cache_counter": 8070,
+        "database_counter": 1930
+    },
+    {
+        "removal_policy": "allkeys-random",
+        "average_time_response": 5.945,
+        "cache_counter": 7526,
+        "database_counter": 2474
+    },
+    {
+        "removal_policy": "allkeys-random",
+        "average_time_response": 5.859,
+        "cache_counter": 8078,
+        "database_counter": 1922
+    },
+    {
+        "removal_policy": "allkeys-random",
+        "average_time_response": 6.144,
+        "cache_counter": 7919,
+        "database_counter": 2081
+    },
+    {
+        "removal_policy": "allkeys-random",
+        "average_time_response": 6.621,
+        "cache_counter": 8001,
+        "database_counter": 1999
+    },
+    {
+        "removal_policy": "allkeys-random",
+        "average_time_response": 6.191,
+        "cache_counter": 8112,
+        "database_counter": 1888
+    },
+    {
+        "removal_policy": "allkeys-random",
+        "average_time_response": 6.381,
+        "cache_counter": 8106,
+        "database_counter": 1894
+    },
+    {
+        "removal_policy": "allkeys-random",
+        "average_time_response": 6.304,
+        "cache_counter": 8067,
+        "database_counter": 1933
+    },
+    {
+        "removal_policy": "allkeys-random",
+        "average_time_response": 6.231,
+        "cache_counter": 8046,
+        "database_counter": 1954
+    },
+    {
+        "removal_policy": "allkeys-random",
+        "average_time_response": 6.359,
+        "cache_counter": 8127,
+        "database_counter": 1873
+    }
+]

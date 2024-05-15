@@ -1,0 +1,19 @@
+
+syntax = "proto3";
+
+package fetch;
+
+service Fetch_Service{
+  rpc Fetch (Fetch_Request) returns (Fetch_Response);
+}
+
+message Fetch_Request{
+  string anime_id = 1;
+}
+
+message Fetch_Response {
+  string anime_title = 1;
+  string mode = 2;
+}
+
+
