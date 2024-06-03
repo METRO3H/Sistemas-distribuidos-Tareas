@@ -160,5 +160,11 @@
         "average_time_response": 6.547,
         "cache_counter": 2560,
         "database_counter": 7440
+    },
+    {
+        "removal_policy": "allkeys-lru",
+        "average_time_response": 6.059,
+        "cache_counter": 2406,
+        "database_counter": 7594
     }
 ]
